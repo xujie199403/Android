@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BMR</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_bmr">BMR</string>
+    <string name="bmr_year">年龄</string>
+    <string name="bmr_height">身高 (cm)</string>
+    <string name="bmr_weight">體重 (kg)</string>
+    <string name="bmr_calculate">計算 BMR 值</string>
+    <string name = "bmr_boy">男</string>
+    <string name = "bmr_girl">女</string>
+
+    <string name="hello_world"></string>
+
+</resources>

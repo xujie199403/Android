@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RadioGroup  xmlns:android = "http://schemas.android.com/apk/res/android"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "vertical"
+        android:id="@+id/radioGroup"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bmr_boy"
+        android:id="@+id/radioButton"
+        android:layout_marginStart="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textHeight" />
+
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bmr_girl"
+        android:id="@+id/radioButton2"
+        android:layout_above="@+id/textYear"
+        android:layout_toEndOf="@+id/radioButton"
+        android:layout_marginStart="46dp" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/textYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bmr_year"
+        android:layout_below="@+id/radioGroup"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/inputYear"
+        style="editTextStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_below="@+id/textYear"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/textHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bmr_height"
+        android:layout_below="@+id/inputYear"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/inputHeight"
+        style="editTextStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_below="@+id/textHeight"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/textWeight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/inputHeight"
+        android:text="@string/bmr_weight" />
+    <EditText
+        android:id="@+id/inputWeight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textWeight"
+        android:ems="10"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/inputWeight"
+        android:text="@string/bmr_calculate" />
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonCalculate" />
+    <TextView
+        android:id="@+id/textSuggest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textResult" />
+
+</RelativeLayout>
