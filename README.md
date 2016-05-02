@@ -39,7 +39,7 @@ Android
   ```java
     Uri uri=Uri.parse("123456@123.com"); 
     Intent i=new Intent(Intent.ACTION_SENDTO,uri);
-    startActivity(i);    ```
+    startActivity(i); 
   ```
   Camera:
   ```java
