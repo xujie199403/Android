@@ -29,19 +29,19 @@ Android
     Intent i=new Intent(Intent.ACTION_VIEW,uri); 
     startActivity(i);
   ```
-  telphone：
+  >telphone：
   ```java
     Uri uri=Uri.parse("tel:12345678"); 
     Intent i=new Intent(Intent.ACTION_VIEW,uri); 
     startActivity(i); 
     ```
-  email：
+  >email：
   ```java
     Uri uri=Uri.parse("123456@123.com"); 
     Intent i=new Intent(Intent.ACTION_SENDTO,uri);
     startActivity(i); 
   ```
-  Camera:
+  >Camera:
   ```java
     Intent i = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
     startActivity(i);
