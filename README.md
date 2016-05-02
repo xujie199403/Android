@@ -23,28 +23,32 @@ Android
   
 ###map
   通过Intent调用手机的基础功能
-  Web：
+  
+   >Web：
   ```java
     Uri uri=Uri.parse("http://www.google.com.tw"); 
     Intent i=new Intent(Intent.ACTION_VIEW,uri); 
     startActivity(i);
   ```
-  telphone：
+  
+   >telphone：
   ```java
     Uri uri=Uri.parse("tel:12345678"); 
     Intent i=new Intent(Intent.ACTION_VIEW,uri); 
     startActivity(i); 
     ```
-  email：
+  
+   >Camera:
+  ```java
+    Intent i = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+    startActivity(i);
+  ```
+  
+    >email：
   ```java
     Uri uri=Uri.parse("123456@123.com"); 
     Intent i=new Intent(Intent.ACTION_SENDTO,uri);
     startActivity(i); 
-  ```
-  Camera:
-  ```java
-    Intent i = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-    startActivity(i);
   ```
 
   
