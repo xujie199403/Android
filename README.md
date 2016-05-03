@@ -51,7 +51,27 @@ Android
 ###Run
   Intent方法：通过按钮实现页面跳转。
   
-  
+###Test
+####Bundle_Sender
+  1. create an intent pass class name or intnet action name   
+  2. put key/value data
+  3. or you can add data to a bundle
+  4. add bundle to intent
+  5. start the activity
+####Bundle_Receive
+  1. get passed intent
+  2. get message value from intent
+  3. show message on textView
+  4. get bundle from intent
+  5. get status value from bundle
+  6. show status on Toast
+
+
+
+
+
+
+
 
   
   
