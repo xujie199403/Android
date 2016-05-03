@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">test</string>
+    <string name="radioB_boy">Man</string>
+    <string name="radioB_girl">Woman</string>
+    <string name="Txt_sex">Sex</string>
+    <string name="Txt_year">Years</string>
+    <string name="Txt_height">Height</string>
+    <string name="Txt_weight">Weight</string>
+    <string name="Txt_choice">Activity</string>
+    <string name="Txt_c">今天摄取热量（大卡）</string>
+
+    <string name="radioB_1">Bed(All day)</string>
+    <string name="radioB_2">轻活动生活模式</string>
+    <string name="radioB_3">一般活动模式</string>
+    <string name="radioB_4">活动量大生活模式</string>
+
+    <string name="Btn_enter">Enter</string>
+    <string name="Btn_clear">Clear</string>
+
+    <string name="sex">性别：</string>
+    <string name="year">年龄：</string>
+    <string name="height">身高：</string>
+    <string name="weight">体重：</string>
+    <string name="c">今日摄取热量(大卡)：</string>
+    <string name="Ree">动态动能消耗量（REE）：</string>
+    <string name="needc">今日所需热量：</string>
+    <string name="Con">结论</string>
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">测试</string>
+    <string name="radioB_boy">男</string>
+    <string name="radioB_girl">女</string>
+    <string name="Txt_sex">性别</string>
+    <string name="Txt_year">年龄</string>
+    <string name="Txt_height">身高</string>
+    <string name="Txt_weight">体重</string>
+    <string name="Txt_choice">活动</string>
+    <string name="Txt_c">今天摄取热量（大卡）</string>
+
+    <string name="radioB_1">床（全天）</string>
+    <string name="radioB_2">轻活动生活模式</string>
+    <string name="radioB_3">一般活动模式</string>
+    <string name="radioB_4">活动量大生活模式</string>
+
+    <string name="Btn_enter">确认</string>
+    <string name="Btn_clear">清除</string>
+
+    <string name="sex">性别：</string>
+    <string name="year">年龄：</string>
+    <string name="height">身高：</string>
+    <string name="weight">体重：</string>
+    <string name="c">今日摄取热量(大卡)：</string>
+    <string name="Ree">动态动能消耗量（REE）：</string>
+    <string name="needc">今日所需热量：</string>
+    <string name="Con">结论</string>
+
+</resources>
