@@ -5,12 +5,15 @@ Android
 
 
 ### BMR
+-----------------------------
   First App.
   
 ### Toast 
+-----------------------------
   浮动提示窗体
   
 ###Chat 
+-----------------------------
 **EventListener**:
 
 | Name                   |Interface                      |     
@@ -22,6 +25,7 @@ Android
 | onCreateContextMenu()  | OnCreateContextMenuListener   |  
   
 ###map
+-----------------------------
   通过Intent调用手机的基础功能
   
   >Web：
@@ -49,16 +53,18 @@ Android
   ```
 
 ###Run
+-----------------------------
   Intent方法：通过按钮实现页面跳转。
   
 ###Test
-####Bundle_Sender
+-----------------------------
+Bundle_Sender
   1. create an intent pass class name or intnet action name   
   2. put key/value data
   3. or you can add data to a bundle
   4. add bundle to intent
   5. start the activity
-####Bundle_Receive
+Bundle_Receive
   1. get passed intent
   2. get message value from intent
   3. show message on textView
