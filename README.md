@@ -48,6 +48,9 @@ Android
     startActivity(i); 
   ```
 
+###Run
+  Intent方法：通过按钮实现页面跳转。
+  
   
 
   
