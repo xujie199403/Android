@@ -68,9 +68,29 @@ Android
   5. get status value from bundle
   6. show status on Toast
 
+###Json
 
+JSON 全名为 JavaScript Object Notation</br>
+JSON 是一种轻量级的资料交换语言，以文字为基础
 
-
+{“name”: “alpha”}
+```java
+String json = “{“+ “\”name\” : \”alpha\”+ “}”
+// 字串一開始是{}也就是物件，因此宣告一個JSON物件；
+JSONObject jsonObj = new JSONObject(json);
+//宣告字串 nameVale 來存放剛剛撈到 name的 value “alpha”
+String nameVale = jsonObj.getString(“name”);
+String nameVale = new JSONObject(json).getString(“name”);
+```
+[1,”alpha”, {“id”:3} ]
+```java
+String json = “[“+ “1,”+ “\”alpha\”,”+ “{“+ “\”id\”:3”+ “}”+ “]”
+//字串一開始是[]字串陣列則宣告JSON陣列。
+JSONArray jsonArray = new JSONArray(json);
+int data0 = jsonArray.getInt(0);
+String data1 = jsonArray.geString(1);
+JSONObject data2 =  jsonArray.getJSONObject(2);
+```
 
 
 
